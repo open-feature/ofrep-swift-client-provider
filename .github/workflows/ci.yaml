@@ -31,7 +31,7 @@ jobs:
             swift test
           else
             xcodebuild test \
-              -scheme OpenFeature \
+              -scheme OFREPClientProvider \
               -destination "${{ matrix.destination }}"
           fi
 
